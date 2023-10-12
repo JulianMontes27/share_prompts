@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
+// What every route has
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
