@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Feed from '@/components/Feed';
 
 // Home page
 // the _ means that it is our own styling coming from styles/globals.css
@@ -13,8 +14,8 @@ const Home = () => {
         <p className='desc text-center'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nesciunt fugit impedit ipsum adipisci voluptates illum aliquam perferendis, sint possimus dignissimos error amet ipsa molestias sit? 
         </p>
-        
-        {/* {feed} */}
+
+        <Feed/>
     </section>
   )
 }
